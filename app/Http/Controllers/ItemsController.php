@@ -21,7 +21,7 @@ use App\Item;
             $rws_response = $client->execute('IchibaItemSearch', [
                 'keyword' => $keyword,
                 'imageFlag' => 1,
-                'hits' => 20,
+                'hits' => 30,
             ]);
 
             // Creating "Item" instance to make it easy to handle.（not saving）
